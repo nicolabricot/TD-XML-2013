@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet 
+		type="text/xsl"
+		href="robot2html.xsl"
+	?>
+	<?xml-stylesheet type="text/xsl" href="robot2html.xsl" ?><robots>
+	
+   <robot name="S-CMLM">
+		
+      <corps w="6" h="12" PN="R1"/>
+		
+      <axe position="avant" PN="A1">
+			
+         <pivot position="centrale" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A1">
+			
+         <pivot position="centrale" mode="libre" PN="P2"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+	
+   </robot>
+	
+   <robot name="S-CMCM">
+		
+      <corps w="6" h="12" PN="R1"/>
+		
+      <axe position="avant" PN="A1">
+			
+         <pivot position="centrale" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A1">
+			
+         <pivot position="centrale" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+	
+   </robot>
+	
+   <robot name="S-CFLM">
+		
+      <corps w="6" h="12" PN="R1"/>
+		
+      <axe position="avant" PN="A1">
+			
+         <pivot position="centrale" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="non" PN="W2"/>
+			
+         <roue position="droite" r="1" moteur="non" PN="W2"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A1">
+			
+         <pivot position="centrale" mode="libre" PN="P2"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+	
+   </robot>
+	
+   <robot name="S-CMLF">
+		
+      <corps w="6" h="12" PN="R1"/>
+		
+      <axe position="avant" PN="A1">
+			
+         <pivot position="centrale" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A1">
+			
+         <pivot position="centrale" mode="libre" PN="P2"/>
+			
+         <roue position="gauche" r="1" moteur="non" PN="W2"/>
+			
+         <roue position="droite" r="1" moteur="non" PN="W2"/>
+		
+      </axe>
+	
+   </robot>
+	
+   <robot name="T-CM">
+		
+      <corps w="4" h="8" PN="R3"/>
+		
+      <axe position="avant" PN="A2">
+			
+         <pivot position="centrale" mode="commande" PN="P1"/>
+			
+         <roue position="centrale" r="1" moteur="non" PN="W2"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A1">
+			
+         <pivot position="centrale" mode="fixe" PN="P2"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+	
+   </robot>
+	
+   <robot name="X-4">
+		
+      <corps w="8" h="16" PN="R2"/>
+		
+      <axe position="avant" PN="A2">
+			
+         <pivot position="gauche" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="avant" PN="A2">
+			
+         <pivot position="droite" mode="commande" PN="P1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A2">
+			
+         <pivot position="gauche" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A2">
+			
+         <pivot position="droite" mode="commande" PN="P1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+	
+   </robot>
+	
+   <robot name="X-6">
+		
+      <corps w="8" h="16" PN="R2"/>
+		
+      <axe position="avant" PN="A2">
+			
+         <pivot position="gauche" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="avant" PN="A2">
+			
+         <pivot position="droite" mode="commande" PN="P1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="centrale" PN="A2">
+			
+         <pivot position="gauche" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="centrale" PN="A2">
+			
+         <pivot position="droite" mode="commande" PN="P1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A2">
+			
+         <pivot position="gauche" mode="commande" PN="P1"/>
+			
+         <roue position="gauche" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+		
+      <axe position="arriere" PN="A2">
+			
+         <pivot position="droite" mode="commande" PN="P1"/>
+			
+         <roue position="droite" r="1" moteur="oui" PN="W1"/>
+		
+      </axe>
+	
+   </robot>
+</robots>

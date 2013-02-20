@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><robots>
+	<robot name="S-CMLM"><assembly prix="2"/>
+		<corps w="6" h="12" PN="R1" prix="30"/>
+		<axe position="avant" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="arriere" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="libre" PN="P2" prix="10"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+	</robot>
+	<robot name="S-CMCM"><assembly prix="2"/>
+		<corps w="6" h="12" PN="R1" prix="30"/>
+		<axe position="avant" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="arriere" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+	</robot>
+	<robot name="S-CFLM"><assembly prix="2"/>
+		<corps w="6" h="12" PN="R1" prix="30"/>
+		<axe position="avant" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="non" PN="W2" prix="5"/>
+			<roue position="droite" r="1" moteur="non" PN="W2" prix="5"/>
+		</axe>
+		<axe position="arriere" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="libre" PN="P2" prix="10"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+	</robot>
+	<robot name="S-CMLF"><assembly prix="2"/>
+		<corps w="6" h="12" PN="R1" prix="30"/>
+		<axe position="avant" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="arriere" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="libre" PN="P2" prix="10"/>
+			<roue position="gauche" r="1" moteur="non" PN="W2" prix="5"/>
+			<roue position="droite" r="1" moteur="non" PN="W2" prix="5"/>
+		</axe>
+	</robot>
+	<robot name="T-CM"><assembly prix="2"/>
+		<corps w="4" h="8" PN="R3" prix="20"/>
+		<axe position="avant" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="centrale" mode="commande" PN="P1" prix="15"/>
+			<roue position="centrale" r="1" moteur="non" PN="W2" prix="5"/>
+		</axe>
+		<axe position="arriere" PN="A1" prix="8"><assembly prix="2"/>
+			<pivot position="centrale" mode="fixe" PN="P2" prix="10"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+	</robot>
+	<robot name="X-4"><assembly prix="2"/>
+		<corps w="8" h="16" PN="R2" prix="40"/>
+		<axe position="avant" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="gauche" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="avant" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="droite" mode="commande" PN="P1" prix="15"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="arriere" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="gauche" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="arriere" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="droite" mode="commande" PN="P1" prix="15"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+	</robot>
+	<robot name="X-6"><assembly prix="2"/>
+		<corps w="8" h="16" PN="R2" prix="40"/>
+		<axe position="avant" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="gauche" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="avant" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="droite" mode="commande" PN="P1" prix="15"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="centrale" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="gauche" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="centrale" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="droite" mode="commande" PN="P1" prix="15"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="arriere" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="gauche" mode="commande" PN="P1" prix="15"/>
+			<roue position="gauche" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+		<axe position="arriere" PN="A2" prix="4"><assembly prix="2"/>
+			<pivot position="droite" mode="commande" PN="P1" prix="15"/>
+			<roue position="droite" r="1" moteur="oui" PN="W1" prix="3"/>
+		</axe>
+	</robot>
+</robots>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+	<product PN="R1" price="30" location="1"/>
+	<product PN="R2" price="40" location="1"/>
+	<product PN="R3" price="20" location="1"/>
+	<product PN="P1" price="15" location="2"/>
+	<product PN="P2" price="10" location="3"/>
+	<product PN="A1" price="8" location="2"/>
+	<product PN="A2" price="4" location="3"/>
+	<product PN="W1" price="3" location="2"/>
+	<product PN="W2" price="5" location="3"/>
+	<product PN="ZZ" price="2" location="0"/>
+</products>
