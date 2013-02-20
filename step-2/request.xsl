@@ -34,4 +34,9 @@
 	<!--</robots>-->
 </xsl:template>
 
+<xsl:template match="start">
+	<xsl:variable name="string" select="./@string" />
+	<xsl:copy-of select="$doc-robot//robot[starts-with(./@name, $string)]" />
+</xsl:template>
+
 </xsl:stylesheet>
