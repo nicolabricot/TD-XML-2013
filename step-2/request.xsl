@@ -13,16 +13,25 @@
 		type="text/xsl"
 		href="robot2html.xsl"
 	</xsl:processing-instruction>
-	<xsl:apply-templates />
+	<robots>
+		<xsl:apply-templates />
+	</robots>
 </xsl:template>
 
 <xsl:template match="all">
-	<xsl:copy-of select="$doc-robot" />
+	<xsl:copy-of select="$doc-robot//robot" />
 </xsl:template>
 
 <xsl:template match="name">
 	<xsl:variable name="string" select="./@string" />
-	<xsl:copy-of select="$doc-robot//robot[./@name= $string]" />
+	<xsl:copy-of select="$doc-robot//robot[./@name = $string]" />
+</xsl:template>
+
+<xsl:template match="engine">
+	<xsl:variable name="count" select="./@count" />
+	<!--<robots>-->
+	<xsl:copy-of select="$doc-robot//robot[count(.//roue[./@moteur = 'oui']) = $count]" />
+	<!--</robots>-->
 </xsl:template>
 
 </xsl:stylesheet>
