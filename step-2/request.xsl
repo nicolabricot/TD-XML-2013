@@ -21,7 +21,8 @@
 </xsl:template>
 
 <xsl:template match="name">
-	<xsl:copy-of select="$doc-robot/robot[./@name= ./@string]" />
+	<xsl:variable name="string" select="./@string" />
+	<xsl:copy-of select="$doc-robot//robot[./@name= $string]" />
 </xsl:template>
 
 </xsl:stylesheet>
