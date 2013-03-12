@@ -25,6 +25,7 @@
 <xsl:template match="robot">
 	<h2><xsl:value-of select="./@name"/></h2>
 	<ul>
+		<li>Prix : <xsl:value-of select="sum(.//*/@price)" /> €</li>
 		<xsl:apply-templates />
 		<!--<li>Nombre de roues : <xsl:value-of select="count(./axe/roue)" /></li>-->
 		<li>Nombre de roues : <xsl:value-of select="count(.//roue)" /></li>
