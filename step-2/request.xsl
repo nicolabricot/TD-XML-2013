@@ -39,4 +39,20 @@
 	<xsl:copy-of select="$doc-robot//robot[starts-with(./@name, $string)]" />
 </xsl:template>
 
+<xsl:template match="or">
+	<xsl:variable name="a">
+		<xsl:apply-templates select="*[1]" />
+	</xsl:variable>
+	<xsl:variable name="b">
+		<xsl:apply-templates select="*[2]" />
+	</xsl:variable>
+	<xsl:copy-of select="$a/robot" />
+	<xsl:for-each select="$b/robot">
+		<xsl:variable name="name" select="./@name" />
+		<xsl:if test="not($a/robot[./@name = $name])">
+			<xsl:copy-of select="." />
+		</xsl:if>
+	</xsl:for-each>
+</xsl:template>
+
 </xsl:stylesheet>
