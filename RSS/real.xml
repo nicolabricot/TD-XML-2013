@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dl.xsl" ?>
+<sources>
+	<channel url="http://www.lemonde.fr/rss/sequence/0,2-3244,1-0,0.xml"/>
+	<channel url="http://www.liberation.fr/rss/los-angeles-e3-2009,99805"/>
+	<channel url="http://www.lefigaro.fr/rss/figaro_vins.xml"/>
+	<channel url="http://soiree.letudiant.fr/rss.xml"/>
+	<channel url="http://www.01net.com/rss/RSS_ACTUS_materiel.xml"/>
+	<channel url="http://www.lalsace.fr/fr/rss/GPRS_RSS_Get.aspx?iCategorieRedactionnelle=207"/>
+</sources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="merger.xsl" ?>
+<sources>
+	<channel url="lemonde-planete.xml"/>
+	<channel url="liberation-E3.xml"/>
+	<channel url="figaro-vins.xml"/>
+	<channel url="letudiant-soirees.xml"/>
+	<channel url="01net-materiel.xml"/>
+	<channel url="lalsace-une.xml"/>
+</sources>
