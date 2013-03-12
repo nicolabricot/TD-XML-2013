@@ -1,5 +1,5 @@
-rem java -cp "c:\java\saxon8.jar" net.sf.saxon.Transform -o out1.xml local.xml dl.xsl
-rem java -cp "c:\java\saxon8.jar" net.sf.saxon.Transform -o out2.xml real.xml dl.xsl
-rem java -cp "c:\java\saxon8.jar" net.sf.saxon.Transform -o out.html local.xml merger.xsl
+rem java -cp "c:\java\Saxon-8_0B\saxon8.jar" net.sf.saxon.Transform local.xml dl.xsl > out1.xml
+rem java -cp "c:\java\Saxon-8_0B\saxon8.jar" net.sf.saxon.Transform real.xml dl.xsl > out2.xml
+rem java -cp "c:\java\Saxon-8_0B\saxon8.jar" net.sf.saxon.Transform local.xml merger.xsl > out3.xml
 
 pause
